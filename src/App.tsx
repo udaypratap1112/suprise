@@ -20,7 +20,8 @@ const COMPLIMENTS = [
   "You're the kind of friend I'd share my favorite 🍔 snacks with. That's huge.",
   "Your energy is immaculate. 10/10.",
   "You make the world at least 400% brighter just by walking into the room.",
-  "Out of all 8 billion people on Earth, you're easily in the VIP hall of fame."
+  "Out of all 8 billion people on Earth, you're easily in the VIP hall of fame.",
+  "You're the kind of friend I'd share my favorite 🍔 snacks with. That's huge.",
 ];
 
 const BIRTHDAY_TITLE = "HAPPY BIRTHDAY, {NAME}! 🎉";
@@ -164,14 +165,14 @@ export default function App() {
     const nextCount = clickCount + 1;
     setClickCount(nextCount);
     sound.playPop(nextCount);
-
+  
     if (nextCount < CLICKS_TO_REVEAL) {
-      let nextIdx = Math.floor(Math.random() * complimentsList.length);
-      if (complimentsList.length > 1 && nextIdx === lastIndex) {
-        nextIdx = (nextIdx + 1) % complimentsList.length;
-      }
+      // 1. Determine the next index sequentially. If lastIndex is null, start at 0.
+      const nextIdx = lastIndex === null ? 0 : (lastIndex + 1) % COMPLIMENTS.length;
+      
+      // 2. Update state with the new index and corresponding text
       setLastIndex(nextIdx);
-      setCurrentText(complimentsList[nextIdx]);
+      setCurrentText(COMPLIMENTS[nextIdx]); // Note: Using COMPLIMENTS directly, change to complimentsList if that's your local variable
     }
   };
 
