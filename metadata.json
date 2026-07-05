@@ -1,0 +1,6 @@
+{
+  "name": "Dopamine & Birthday Reveal",
+  "description": "An interactive, vibrant birthday reveal website featuring a dopamine hit compliment generator that builds up to a celebratory confetti explosion and custom birthday greeting.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
