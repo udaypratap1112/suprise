@@ -26,7 +26,7 @@ const COMPLIMENTS = [
 const BIRTHDAY_TITLE = "HAPPY BIRTHDAY, {NAME}! 🎉";
 
 const BIRTHDAY_MESSAGE = 
-  "Happy birthday! Honestly, you're one of the few people i can tolerate for more than two hours at a time, which is a big compliment. Hope you're spending today doing exactly what u want(even if that's literally sleeping all day), bss isse jada/accha nhi likh sakta, Happy Birthday again☺️. please dont sleep all day. i have never thought that we would become good friends or abb dikhiye ye chutiya cheeze kr raha aapke liye";
+  "Happy birthday! Honestly, you're one of the few people i can tolerate for more than two hours at a time, which is a big compliment. Hope you're spending today doing exactly what u want(even if that's literally sleeping all day), bss isse jada/accha nhi likh sakta, Happy Birthday again☺️. please dont sleep all day orr aap aaj jo bhi tasty tasty khaoge usse bhejke jalane ki jarurat nhi h 😅😅😅.";
 
 const CELEBRATION_GIFS = [
   {
