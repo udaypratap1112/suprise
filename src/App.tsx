@@ -35,7 +35,7 @@ const CELEBRATION_GIFS = [
   },
   {
     url: "https://i.ibb.co/q39N1Fdm/IMG-20260417-WA0016.jpg",
-    caption: "IMMACULATE VIBES! 💃"
+    caption: "IMMACULATE VIBES!💃"
   },
   {
     url: "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOGoyMnl3MGszOXN4NW5tM3RocTNscnl4dzllZ3gwcHJveXk4dG5heSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/3oriO0OEd9QIDdllqo/giphy.gif",
