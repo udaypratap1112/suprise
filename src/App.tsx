@@ -15,20 +15,18 @@ const CLICKS_TO_REVEAL = 6;
 const INITIAL_MESSAGE = "Need a mood boost? Press the button.";
 
 const COMPLIMENTS = [
-  "You have excellent taste in friends (specifically me).",
+  "You have excellent taste in friends (specifically me), chalo aapko bura na lage (dusre no. pr Astha).",
   "Statistically speaking, you are the best person born on this exact day.",
-  "I promise to let you pick the restaurant next time.",
-  "You're the kind of friend I'd share my favorite snacks with. That's huge.",
+  "You're the kind of friend I'd share my favorite 🍔 snacks with. That's huge.",
   "Your energy is immaculate. 10/10.",
   "You make the world at least 400% brighter just by walking into the room.",
-  "If you were a vegetable, you'd definitely be a cute-cumber.",
   "Out of all 8 billion people on Earth, you're easily in the VIP hall of fame."
 ];
 
 const BIRTHDAY_TITLE = "HAPPY BIRTHDAY, {NAME}! 🎉";
 
 const BIRTHDAY_MESSAGE = 
-  "You're not just a year older, you're a year more legendary! Hope your special day is filled with unlimited cake, laughter, and as much dopamine as this button provided. Thank you for being such an incredible friend!";
+  "Happy birthday! Honestly, you're one of the few people i can tolerate for more than two hours at a time, which is a big compliment. Hope you're spending today doing exactly what u want(even if that's literally sleeping all day), bss isse jada/accha nhi likh sakta, Happy Birthday again☺️. please dont sleep all day. i have never thought that we would become good friends or abb dikhiye ye chutiya cheeze kr raha aapke liye";
 
 const CELEBRATION_GIFS = [
   {
