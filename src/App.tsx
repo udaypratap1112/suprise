@@ -36,7 +36,7 @@ const CELEBRATION_GIFS = [
     caption: "PARTY TIME! 🥳"
   },
   {
-    url: "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbnlydHJ0b2MxdXZ4YWg2OWc0cTBqZWZpeTgwNXc4ejB1ZTZkYWxyZiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/MViYNpI0wx69zX7j7w/giphy.gif",
+    url: "https://i.ibb.co/q39N1Fdm/IMG-20260417-WA0016.jpg",
     caption: "IMMACULATE VIBES! 💃"
   },
   {
@@ -201,7 +201,7 @@ export default function App() {
           origin: { x: Math.random(), y: Math.random() - 0.2 },
           colors: ['#FF00E4', '#FFFFFF', '#00E0FF', '#FFD200']
         });
-      }, 700);
+      }, 100);
       return () => clearInterval(interval);
     }
   }, [isRevealPhase]);
